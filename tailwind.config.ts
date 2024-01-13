@@ -13,6 +13,17 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        background: "hsl(var(--background))",
+        primary: "hsl(var(--primary))",
+        font: "hsl(var(--font))",
+        locked: "hsl(var(--locked))",
+        selected: "hsl(var(--selected))",
+      },
+      fontFamily: {
+        inter: 'Inter',
+        oswald: 'Oswald',
+      }
     },
   },
   plugins: [],
