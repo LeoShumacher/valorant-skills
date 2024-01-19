@@ -12,6 +12,3 @@
   --selected: 213, 8%, 28%;
 }
 
-:body {
- @apply bg-background text-font font-inter
-}

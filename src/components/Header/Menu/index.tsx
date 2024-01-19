@@ -1,3 +1,4 @@
+"use client"
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
 import Button from "./buttons";
@@ -7,10 +8,10 @@ export default function Menu() {
   return (
     <>
       {open ? (
-        <div className="w-full h-full  absolute left-0 top-0 z-20"><MenuContent /></div>
+        <div className="w-full h-full bg-background absolute left-0 top-0 z-20"><MenuContent /></div>
       ) : (
         <div className="flex sm:hidden" onClick={() => setOpen(!open)}>
-          <HamburgerMenuIcon className="w-7 h-7" />
+          <HamburgerMenuIcon className="w-7 h-7 text-white" />
         </div>
       )}
     </>
